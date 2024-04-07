@@ -8,7 +8,7 @@ public class Cozinheiro extends Thread{
 
     public Cozinheiro(Semaphore mesa,int porcoes){
         this.mesa = mesa;
-        this.porcoes=porcoes;
+        this.porcoes=porcoes - 1;
 
     }
     

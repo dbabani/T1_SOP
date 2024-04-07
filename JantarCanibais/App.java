@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) throws InterruptedException {
         // Definindo os parâmetros
         int canibais = 4; // Número de canibais
-        int porcoes = 4; // Capacidade inicial da travessa
+        int porcoes = 10; // Capacidade inicial da travessa
         System.out.println("Numero de canibais:" + canibais + " " + "Quantidade de Comida:" + porcoes);
 
 
