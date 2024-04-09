@@ -2,14 +2,14 @@ package JantarCanibais;
 
 public class LamportMutex {
     private int[] thread;
-    private int turn;
+    
 
     public LamportMutex(int num_threads) {
         thread = new int[num_threads];
         for (int i = 0; i < num_threads; i++) {
             thread[i] = 0;
         }
-        this.turn = 0;
+        
     }
 
     public void lock(int thread_id) {
